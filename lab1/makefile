@@ -1,8 +1,8 @@
 all:suibian ckn	
 
-suibian:
+suibian:suibian.c
 	gcc -Wall -std=c99 -o suibian suibian.c
-ckn:
+ckn:ckn.c
 	gcc -Wall -std=c99 -o ckn ckn.c
 	
 clean:
